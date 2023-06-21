@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+.Essentiels{
+    display: flex;
+    flex-direction: column;
+}
+
+.Media{
+    display: flex;
+    flex-direction: column;
+}
+
+.Tableaux{
+    display: flex;
+    flex-direction: column;
+}
+
+.Tous{
+    display: flex;
+    flex-direction: column;
+}
+
+
