@@ -23,4 +23,23 @@ body{
     flex-direction: column;
 }
 
+.leftpart{
+    margin: 10px;
+    text-align: center;
+    border: solid;
+    background-color: lavender;
+}
 
+.rightpart{
+    margin: 50px;
+}
+
+table, th, td{
+    border: 1px solid;
+
+}
+
+.row1{
+    background-color: silver;
+    font-weight: bold;
+}
