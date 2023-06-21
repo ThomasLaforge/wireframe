@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: row;
+    overflow : scroll;
 }
 
 .Essentiels{
@@ -25,9 +26,12 @@ body{
 
 .leftpart{
     margin: 10px;
+    width: 100%;
     text-align: center;
     border: solid;
     background-color: lavender;
+    overflow: scroll;
+    max-height: 500px;
 }
 
 .rightpart{
@@ -36,10 +40,10 @@ body{
 
 table, th, td{
     border: 1px solid;
-
 }
 
 .row1{
     background-color: silver;
     font-weight: bold;
 }
+
