@@ -28,7 +28,7 @@ body{
     margin: 10px;
     width: 100%;
     text-align: center;
-    border: solid;
+    border: 1px solid;
     background-color: lavender;
     overflow: scroll;
     max-height: 500px;
@@ -38,6 +38,21 @@ body{
     margin: 50px;
 }
 
+.defbalise{
+    border: 1px solid;
+    background-color: blanchedalmond;
+
+}
+
+.Attributs{
+    border: 1px solid;
+    background-color: blanchedalmond;
+}
+
+.html{
+    border: 1px solid;
+    background-color: blanchedalmond;
+}
 table, th, td{
     border: 1px solid;
 }
