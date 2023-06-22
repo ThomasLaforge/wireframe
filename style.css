@@ -40,13 +40,11 @@ body{
     border: 1px solid;
     overflow-y: scroll;
     height: 100%;
-    position: fixed;
 }
 
 .rightpart{
     height: 100%;
-    margin: 15% 2% 2% 30%;
-    position: static;
+    overflow-y: scroll;
 }
 
 .defbalise{
