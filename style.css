@@ -34,7 +34,6 @@ body{
     width: 25%;
     text-align: center;
     border: 1px solid;
-    background-color: lavender;
     overflow-y: scroll;
     height: 100%;
 }
@@ -48,16 +47,14 @@ body{
 
 .defbalise{
     margin: 0;
-    background-color: blanchedalmond;
 }
 
 .Attributs{
-    background-color: blanchedalmond;
-    margin-bottom: 30px;
+    margin: 30px 0px ;
 }
 
 .html{
-    background-color: blanchedalmond;
+margin: 30px 0px; 
 }
 
 table{
