@@ -43,7 +43,8 @@ body{
     margin-top: 200px;
     margin-left: 100px;;
     width: 75%;
-}
+    border: 1px solid;
+    }
 
 .defbalise{
     margin: 0;
