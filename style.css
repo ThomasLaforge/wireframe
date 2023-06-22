@@ -1,7 +1,12 @@
+html {
+    height: 100%;
+}
+
 body{
+    margin: 0px;
     display: flex;
     flex-direction: row;
-    overflow : scroll;
+    height: 100%;
 }
 
 .Essentiels{
@@ -25,40 +30,56 @@ body{
 }
 
 .leftpart{
-    margin: 10px;
-    width: 100%;
+    margin: 0px;
+    width: 25%;
     text-align: center;
     border: 1px solid;
     background-color: lavender;
-    overflow: scroll;
-    max-height: 500px;
+    overflow-y: scroll;
+    height: 100%;
 }
 
 .rightpart{
-    margin: 50px;
+    margin-top: 200px;
+    margin-left: 100px;;
+    width: 75%;
 }
 
 .defbalise{
-    border: 1px solid;
+    margin: 0;
     background-color: blanchedalmond;
-
 }
 
 .Attributs{
-    border: 1px solid;
     background-color: blanchedalmond;
+    margin-bottom: 30px;
 }
 
 .html{
-    border: 1px solid;
     background-color: blanchedalmond;
 }
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
 table, th, td{
-    border: 1px solid;
+    border: 0.8px solid;
+    border-color: rgb(205, 205, 205);
+}
+
+tr{
+    height: 30px;
+}
+
+th{
+    text-align: left;
+    padding-left: 10px;
+    font-weight: 400;
 }
 
 .row1{
-    background-color: silver;
-    font-weight: bold;
+    background-color: rgb(234, 234, 234);
 }
 
